@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="showClock()">
+<div id="demo">123</div>
+
+<script>
+    function showClock() {
+        document.getElementById("demo").innerHTML=Date().toLocaleString();
+        // setTimeout(showClock,500);
+    }
+    setInterval(showClock,500);
+</script>
+</body>
+</html>

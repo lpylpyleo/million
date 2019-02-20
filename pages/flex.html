@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex-container {
+            display: flex;
+            margin: 150px 50px;
+            height: 600px;
+            background-color: #9fcdff;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+
+        @media screen and (max-width: 480px) {
+            body{
+                background-color: #0f6674;
+            }
+        }
+    </style>
+</head>
+<body class="">
+<div class="flex-container ">
+    <div class="flex-item">item 1</div>
+    <div class="flex-item">item 2</div>
+    <div class="flex-item">item 3</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper{
+            overflow: auto;
+        }
+        .menu-item{
+            background-color: #7abaff;
+            border: #2B81AF;
+            margin: 2px;
+            border-radius: 5px;
+            padding: 2px;
+            list-style-type: none;
+        }
+        #menu-list{
+
+        }
+        #left-side-bar{
+            width: auto;
+            float: none;
+        }
+        .main{
+            margin-left: 4px;
+        }
+        @media screen and (min-width: 480px){
+            #left-side-bar{
+                float: left;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div id="left-side-bar">
+        <ul id="menu-list">
+            <li class="menu-item">item 1</li>
+            <li class="menu-item">item 2</li>
+            <li class="menu-item">item 3</li>
+            <li class="menu-item">item 4</li>
+            <li class="menu-item">item 5</li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>Media query</h1>
+        <p>TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest
+            Test Test Test Test Test Test Test Test Test Test Test Test Test
+        </p>
+    </div>
+</div>
+</body>
+</html>

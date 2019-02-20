@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var xmlHttpRequest = new XMLHttpRequest();
+
+        function load() {
+            xmlHttpRequest.onreadystatechange = function (ev) {
+                if (xmlHttpRequest.readyState === 4 && xmlHttpRequest.status === 200) {
+                    document.getElementById('content').innerHTML = xmlHttpRequest.responseText;
+                }
+            }
+            xmlHttpRequest.open('GET', "../ajax/a.txt", true);
+            xmlHttpRequest.send();
+        }
+    </script>
+</head>
+<body>
+<div id="content">Content</div>
+<button onclick="load()" class="btn btn-primary">Change</button>
+</body>
+</html>
