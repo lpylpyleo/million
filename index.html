@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="//code.z01.com/v4/dist/css/zico.min.css">
     <link rel="stylesheet" href="css/lightbox.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     <script src="js/lightbox.js"></script>
+    <script src="js/lazyload.min.js"></script>
+    <script src="js/custom.js"></script>
     <title>Demo</title>
     <style>
         #toTop {
@@ -26,10 +33,11 @@
             background-color: #7abaff;
             flex-wrap: wrap;
             padding-top: 5px;
+            opacity: 10%;
         }
 
         .nav > .nav-item:hover {
-            transform: translateX(10px);
+            transform: translateX(8px);
         }
 
         .nav > .nav-item {
@@ -62,18 +70,19 @@
             transform: scale(1.05);
         }
 
-        .header {
-            background-image: linear-gradient(to bottom right, #8699A4, #5a6268);
-        }
 
         nav {
             box-shadow: 0 1px 5px dimgray;
         }
     </style>
+
+    <script>
+        $("img").addClass("lazy");
+    </script>
 </head>
 <body>
 <!--Title-->
-<div class="jumbotron jumbotron-fluid text-center header mb-0" id="top">
+<div class="jumbotron jumbotron-fluid text-center header mb-0" id="gradient">
     <h1 class="display-2">Million All Stars Gallery</h1>
     <p></p>
 </div>
@@ -113,7 +122,7 @@
     <div class="row">
 
         <!--left nav-->
-        <div class="col-sm-3 text-center shadow-lg pb-5">
+        <div class="col-sm-3 text-center shadow-lg p-5">
             <form class="">
                 <input class="form-control mr-2" placeholder="Search...">
                 <!--<button class="btn btn-primary mr-2" type="submit">Search</button>-->
@@ -138,7 +147,8 @@
         <div class="col-sm-9 card-columns">
 
             <div class="card text-center shadow-sm">
-                <a href="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" data-lightbox="other"><img class="img-fluid card-img-top"
+                <a href="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" data-lightbox="other"><img
+                        class="img-fluid card-img-top"
                         src="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" alt=""></a>
                 <div class="card-header">エレナ</div>
                 <div class="card-body">かわいい</div>
@@ -175,7 +185,8 @@
             </div>
 
             <div class="card text-center shadow-sm">
-                <a href="https://pbs.twimg.com/media/DziT7mvUcAAfFML?format=jpg&name=medium" data-lightbox="other"><img class="img-fluid card-img-top"
+                <a href="https://pbs.twimg.com/media/DziT7mvUcAAfFML?format=jpg&name=medium" data-lightbox="other"><img
+                        class="img-fluid card-img-top"
                         src="https://pbs.twimg.com/media/DziT7mvUcAAfFML?format=jpg&name=medium"
                         alt=""></a>
                 <div class="card-header">つむつむ</div>
@@ -184,18 +195,17 @@
 
         </div>
     </div>
-    <!--Back to top-->
+
 
 </div>
 
-
+<!--Back to top-->
 <div id="toTop" class="text-center">
-    <a href="#top" id="toTopLink"><i class="zi zi_arrowUp" id="backButton"></i></a>
+    <a href="#gradient" id="toTopLink"><i class="zi zi_arrowUp" id="backButton"></i></a>
 </div>
 <!--footer-->
 <div class="jumbotron text-center mb-0">
     <p>&copy;Bandai Namco Entertainment</p>
 </div>
-
 </body>
 </html>
