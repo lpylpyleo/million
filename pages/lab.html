@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <style>
+        p:before {
+            content: attr(data-foo) " "
+        }
+        #d1::before{
+            content: "❤";
+            color: red;
+        }
+        li{
+            padding:10px 5px;
+            background-color: #5a6268;
+        }
+        li.done{
+            background-color: #0ab5e4;
+        }
+        li.done::before{
+            content: "✔";
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("li").click(function () {
+                $(this).toggleClass("done")
+            });
+            $("#b1").click(function () {
+               $("#d2").load("../ajax/a.txt",function () {
+                   $("body").css("background-color","blue")
+               })
+            })
+            $("#b2").click(function () {
+                $("#d3").fadeTo(1000,0.5)
+            })
+        })
+    </script>
+</head>
+<body>
+<p data-foo="hello">world</p>
+<div id="d1">Heart</div>
+<ul>
+    <li>Buy milk</li>
+    <li>Take the dog for a walk</li>
+    <li>Exercise</li>
+    <li>Write code</li>
+    <li>Play music</li>
+    <li>Relax</li>
+</ul>
+<div id="d2"></div><button id="b1">load</button>
+<div id="d3" style="background-color: #2B81AF; width: 100px;height: 50px"></div><button id="b2">Opacity</button>
+</body>
+</html>

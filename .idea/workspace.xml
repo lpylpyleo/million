@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6dff4f1-c8f3-442e-862e-e706cde67b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/demo5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/vendors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/aurora.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/coalesce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/demo5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/noise.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/pipeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/shift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/swirl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Cipthayasa (DEMO).otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/lab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vd1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/akane-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/akane-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/akane.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/akane.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/test.html" afterDir="false" />
     </list>
@@ -47,32 +24,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+            <state relative-caret-position="1881">
+              <caret line="99" column="83" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/custom.js">
+        <entry file="file://$PROJECT_DIR$/vue/vd1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -82,8 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -119,11 +82,13 @@
         <option value="$USER_HOME$/Desktop/index.html" />
         <option value="$PROJECT_DIR$/practice.html" />
         <option value="$PROJECT_DIR$/js/demo5.js" />
-        <option value="$PROJECT_DIR$/pages/test.html" />
         <option value="$PROJECT_DIR$/css/demo5.css" />
         <option value="$PROJECT_DIR$/css/vendors.css" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/pages/test.html" />
+        <option value="$PROJECT_DIR$/pages/lab.html" />
+        <option value="$PROJECT_DIR$/vue/vd1.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -146,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,13 +122,22 @@
             <path>
               <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -171,23 +146,24 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550726844835" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web/animated-mesh-line" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550812469523" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\css" />
-      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\js" />
-      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\pages" />
-      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\js" />
       <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\css" />
       <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\bootstrap\fonts" />
+      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\css" />
+      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\js" />
+      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\pages" />
+      <recent name="C:\Users\Doit\Documents\HBuilderProjects\bootstrap\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,18 +192,20 @@
       <workItem from="1550460215216" duration="28252000" />
       <workItem from="1550550348795" duration="27011000" />
       <workItem from="1550634371557" duration="30939000" />
-      <workItem from="1550720362766" duration="6333000" />
+      <workItem from="1550720362766" duration="8025000" />
+      <workItem from="1550808408070" duration="4099000" />
+      <workItem from="1550831580947" duration="2647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94667000" />
+    <option name="totallyTimeSpent" value="103105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15618336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,13 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -463,19 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -490,10 +448,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vd1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="116" column="10" lean-forward="true" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
+        <state relative-caret-position="1881">
+          <caret line="99" column="83" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="83" />
         </state>
       </provider>
     </entry>
