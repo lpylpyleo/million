@@ -30,7 +30,7 @@
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color: #5a6268;
+            background-color: #0ab5e4;
             padding-top: 5px;
         }
 
@@ -54,10 +54,6 @@
             background-color: snow;
         }
 
-        img {
-            /*max-width: 360px;*/
-        }
-
         .card {
             box-shadow: 2px 2px 5px dimgray;
             margin-top: 20px;
@@ -79,7 +75,18 @@
     </style>
 
     <script>
-        $("img").addClass("lazy");
+        $(document).ready(function () {
+            $("img.card-img-top").wrap("<a class='lightBoxAnchor' data-lightbox='other'></a>");
+            let a = $(".lightBoxAnchor");
+            console.log(a.length);//6
+            for (let i = 0; i < a.length; i++) {
+                console.log(a[i].children("img").attr("src")); //a[i].children is not a function
+                a[i].attr("href", a[i].children("img").attr("src"));
+            }
+            // $.each(a,function (key,value) {
+            //     value.attr("href", value.children("img").attr("src"));
+            // })
+        })
     </script>
 </head>
 <body>
@@ -89,7 +96,7 @@
     <p></p>
 </div>
 
-<!--nav-->
+<!--NavBar-->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
     <div class="navbar-brand">
         <img src="https://vignette.wikia.nocookie.net/millionlive/images/5/5a/765_Production_logo.png/revision/latest?cb=20161230222646"
@@ -151,13 +158,12 @@
         <div class="col-sm-9 card-columns">
 
             <div class="card text-center shadow-sm">
-                <a href="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" data-lightbox="other"><img
+                <img
                         class="img-fluid card-img-top"
-                        src="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" alt=""></a>
+                        src="https://pbs.twimg.com/media/Dznaa0MVsAAvuSb?format=jpg&name=medium" alt="">
                 <div class="card-header">エレナ</div>
                 <div class="card-body">かわいい</div>
             </div>
-
 
             <div class="card text-center shadow-sm">
                 <img class="img-fluid card-img-top"
@@ -189,10 +195,10 @@
             </div>
 
             <div class="card text-center shadow-sm">
-                <a href="https://pbs.twimg.com/media/DziT7mvUcAAfFML?format=jpg&name=medium" data-lightbox="other"><img
+                <img
                         class="img-fluid card-img-top"
                         src="https://pbs.twimg.com/media/DziT7mvUcAAfFML?format=jpg&name=medium"
-                        alt=""></a>
+                        alt="">
                 <div class="card-header">つむつむ</div>
                 <div class="card-body">かわいい</div>
             </div>
