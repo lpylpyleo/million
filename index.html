@@ -80,13 +80,9 @@
             let a = $(".lightBoxAnchor");
             console.log(a.length);//6
             for (let i = 0; i < a.length; i++) {
-                console.log(a[i].children("img").attr("src")); //a[i].children is not a function
-                a[i].attr("href", a[i].children("img").attr("src"));
+                a[i].href=a[i].children[0].src;
             }
-            // $.each(a,function (key,value) {
-            //     value.attr("href", value.children("img").attr("src"));
-            // })
-        })
+        });
     </script>
 </head>
 <body>

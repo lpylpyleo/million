@@ -1,0 +1,51 @@
+#toTop {
+    /*<div>*/
+    z-index: 1000;
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0ab5e4;
+    padding-top: 5px;
+}
+
+.nav > .nav-item:hover {
+    transform: translateX(8px);
+}
+
+.nav > .nav-item {
+    transition: .2s;
+}
+
+#toTop:hover {
+    opacity: 80%;
+}
+
+#backButton {
+    font-size: 30px;
+}
+
+body {
+    background-color: snow;
+}
+
+.card {
+    box-shadow: 2px 2px 5px dimgray;
+    /*margin-top: 20px;*/
+    transition: .3s;
+    padding: 10px 10px 10px 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    box-shadow: 0 1px 5px dimgray;
+}
+
+.container {
+    max-width: 1600px;
+}
